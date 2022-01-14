@@ -10,33 +10,33 @@
 
 <!-- ::: CONSTANTS ::: -->
 
-<constant name="C_title_focused" value="gtk:custom(wm_title,#404040)"/>
-<constant name="C_title_unfocused" value="gtk:custom(wm_title_unfocused,#9d9d9d)"/>
+<constant name="C_title_focused" value="#404040"/>
+<constant name="C_title_unfocused" value="#9d9d9d"/>
 
 <constant name="C_wm_bg" value="#F2F2F2" />
 <constant name="C_wm_bg_unfocused" value="#F2F2F2" />
 
-<constant name="C_wm_border" value="gtk:custom(wm_border,#bababa)" />
-<constant name="C_wm_border_unfocused" value="gtk:custom(wm_border_unfocused,#bababa)" />
-<constant name="C_wm_highlight" value="gtk:custom(wm_highlight,#eeeeee)" />
+<constant name="C_wm_border" value="#bababa" />
+<constant name="C_wm_border_unfocused" value="#bababa" />
+<constant name="C_wm_highlight" value="#eeeeee" />
 
 <!-- window button colors -->
 
 <!-- close -->
-<constant name="C_button_close_bg_focused" value="#0167D5" />
-<constant name="C_button_close_bg_hover" value="#0078EE" />
-<constant name="C_button_close_bg_active" value="#0078EE" />
+<constant name="C_button_close_bg_focused" value="#fdfdfd" />
+<constant name="C_button_close_bg_hover" value="#909090" />
+<constant name="C_button_close_bg_active" value="#909090" />
 
-<constant name="C_icon_close_bg" value="gtk:custom(wm_icon_close_bg,#F8F8F8)" />
+<constant name="C_icon_close_bg" value="#404040" />
 
 <!-- minimize, maximize -->
-<constant name="C_button_bg_hover" value="gtk:custom(wm_button_hover_bg,#fdfdfd)" />
-<constant name="C_button_bg_active" value="gtk:custom(wm_button_active_bg,#909090)" />
+<constant name="C_button_bg_hover" value="#fdfdfd" />
+<constant name="C_button_bg_active" value="#909090" />
 
-<constant name="C_icon_bg_focused" value="gtk:custom(wm_icon_bg,#404040)" />
-<constant name="C_icon_bg_unfocused" value="gtk:custom(wm_icon_unfocused_bg,#b6b6b6)" />
-<constant name="C_icon_bg_hover" value="gtk:custom(wm_icon_hover_bg,#404040)" />
-<constant name="C_icon_bg_active" value="gtk:custom(wm_icon_active_bg,#ffffff)" />
+<constant name="C_icon_bg_focused" value="#404040" />
+<constant name="C_icon_bg_unfocused" value="#b6b6b6" />
+<constant name="C_icon_bg_hover" value="#404040" />
+<constant name="C_icon_bg_active" value="#ffffff" />
 
 <!-- ::: GEOMETRY ::: -->
 
