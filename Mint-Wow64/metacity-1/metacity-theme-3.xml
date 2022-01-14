@@ -34,7 +34,7 @@
 <constant name="C_button_bg_active" value="#fdfdfd" />
 
 <constant name="C_icon_bg_focused" value="#404040" />
-<constant name="C_icon_bg_unfocused" value="#404040" />
+<constant name="C_icon_bg_unfocused" value="#fdfdfd" />
 <constant name="C_icon_bg_hover" value="#404040" />
 <constant name="C_icon_bg_active" value="#404040" />
 
