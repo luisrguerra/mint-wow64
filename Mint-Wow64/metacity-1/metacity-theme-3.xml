@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <metacity_theme>
 <info>
-  <name>Mint-Y</name>
-  <author>Linux Mint</author>
+  <name>Mint-Wow64</name>
+  <author>Luis R.Guerra</author>
   <copyright>GPL</copyright>
   <date>September 2021</date>
-  <description>A pleasant theme built to adapt to many color schemes as well as be optimal for both high and low resolution displays.</description>
+  <description>Fluent Design Theme</description>
 </info>
 
 <!-- ::: CONSTANTS ::: -->
