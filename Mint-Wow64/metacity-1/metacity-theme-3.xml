@@ -2,41 +2,41 @@
 <metacity_theme>
 <info>
   <name>Mint-Wow64</name>
-  <author>Luis R.Guerra</author>
+  <author>Luis Eduardo Guerra</author>
   <copyright>GPL</copyright>
-  <date>September 2021</date>
-  <description>Fluent Design Theme</description>
+  <date>2022</date>
+  <description>Fluent design theme.</description>
 </info>
 
 <!-- ::: CONSTANTS ::: -->
 
-<constant name="C_title_focused" value="#404040"/>
-<constant name="C_title_unfocused" value="#9d9d9d"/>
+<constant name="C_title_focused" value="gtk:custom(wm_title,#404040)"/>
+<constant name="C_title_unfocused" value="gtk:custom(wm_title_unfocused,#9d9d9d)"/>
 
-<constant name="C_wm_bg" value="#F2F2F2" />
-<constant name="C_wm_bg_unfocused" value="#F2F2F2" />
+<constant name="C_wm_bg" value="gtk:custom(wm_bg,#d9d9d9)" />
+<constant name="C_wm_bg_unfocused" value="gtk:custom(wm_bg_unfocused,#d9d9d9)" />
 
-<constant name="C_wm_border" value="#bababa" />
-<constant name="C_wm_border_unfocused" value="#bababa" />
-<constant name="C_wm_highlight" value="#eeeeee" />
+<constant name="C_wm_border" value="gtk:custom(wm_border,#bababa)" />
+<constant name="C_wm_border_unfocused" value="gtk:custom(wm_border_unfocused,#bababa)" />
+<constant name="C_wm_highlight" value="gtk:custom(wm_highlight,#eeeeee)" />
 
 <!-- window button colors -->
 
 <!-- close -->
-<constant name="C_button_close_bg_focused" value="#F2F2F2" />
-<constant name="C_button_close_bg_hover" value="#fdfdfd" />
-<constant name="C_button_close_bg_active" value="#fdfdfd" />
+<constant name="C_button_close_bg_focused" value="#e81123" />
+<constant name="C_button_close_bg_hover" value="#e81123" />
+<constant name="C_button_close_bg_active" value="#F14654" />
 
-<constant name="C_icon_close_bg" value="#404040" />
+<constant name="C_icon_close_bg" value="gtk:custom(wm_icon_close_bg,#F8F8F8)" />
 
 <!-- minimize, maximize -->
-<constant name="C_button_bg_hover" value="#fdfdfd" />
-<constant name="C_button_bg_active" value="#fdfdfd" />
+<constant name="C_button_bg_hover" value="gtk:custom(wm_button_hover_bg,#fdfdfd)" />
+<constant name="C_button_bg_active" value="gtk:custom(wm_button_active_bg,#909090)" />
 
-<constant name="C_icon_bg_focused" value="#404040" />
-<constant name="C_icon_bg_unfocused" value="#404040" />
-<constant name="C_icon_bg_hover" value="#404040" />
-<constant name="C_icon_bg_active" value="#404040" />
+<constant name="C_icon_bg_focused" value="gtk:custom(wm_icon_bg,#404040)" />
+<constant name="C_icon_bg_unfocused" value="gtk:custom(wm_icon_unfocused_bg,#b6b6b6)" />
+<constant name="C_icon_bg_hover" value="gtk:custom(wm_icon_hover_bg,#404040)" />
+<constant name="C_icon_bg_active" value="gtk:custom(wm_icon_active_bg,#ffffff)" />
 
 <!-- ::: GEOMETRY ::: -->
 
@@ -267,8 +267,7 @@
 <!-- close icon -->
 
 <draw_ops name="close_focused">
-	<image filename="button-bg.svg" colorize="C_button_close_bg_focused" x="(width-object_width)/2" y="(height-object_height)/2" width="object_width" height="object_height"/>
-	<image filename="close-icon.svg" colorize="C_icon_close_bg" x="(width-object_width)/2" y="(height-object_height)/2" width="object_width" height="object_height"/>
+	<image filename="close-icon.svg" colorize="C_icon_bg_focused" x="(width-object_width)/2" y="(height-object_height)/2" width="object_width" height="object_height"/>
 </draw_ops>
 
 <draw_ops name="close_focused_pressed">
@@ -282,7 +281,7 @@
 </draw_ops>
 
 <draw_ops name="close_unfocused">
-	<image filename="button-bg.svg" colorize="C_button_close_bg_focused" x="(width-object_width)/2" y="(height-object_height)/2" width="object_width" height="object_height"/>
+	<image filename="button-bg.svg" colorize="C_icon_bg_unfocused" x="(width-object_width)/2" y="(height-object_height)/2" width="object_width" height="object_height"/>
 	<image filename="close-icon.svg" colorize="C_icon_close_bg" x="(width-object_width)/2" y="(height-object_height)/2" width="object_width" height="object_height"/>
 </draw_ops>
 
