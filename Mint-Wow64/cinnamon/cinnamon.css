@@ -217,19 +217,22 @@ StScrollBar {
   spacing: 4px;
   padding: 8px; }
 
+/* start menu */
 .menu {
   color: rgba(255, 255, 255, 0.87);
-  border: 1px solid #212222;
+  border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 3px;
-  background-color: rgba(48, 49, 49, 0.99); }
+  background-color: #202020; }
   .menu.top {
-    border-radius: 0 0 3px 3px; }
+    border-radius: 0 0 6px 6px; }
   .menu.bottom {
-    border-radius: 3px 3px 0 0; }
+    border-radius: 6px;
+    margin: 6px;
+  }
   .menu.left {
-    border-radius: 0 3px 3px 0; }
+    border-radius: 0 6px 6px 0; }
   .menu.right {
-    border-radius: 3px 0 0 3px; }
+    border-radius: 6px 0 0 6px; }
 
 .popup-sub-menu {
   background-color: #414243;
@@ -443,10 +446,11 @@ StScrollBar {
     background-gradient-start: rgba(0, 255, 0, 0.05);
     background-gradient-end: rgba(0, 255, 0, 0.2); }
 
+/* aplication panel at bottom */
 .panel-top, .panel-bottom, .panel-left, .panel-right {
   color: #ffffff;
   border: none;
-  background-color: rgba(48, 49, 49, 0.99);
+  background-color: #202020;
   font-size: 1em;
   padding: 0px; }
 
@@ -508,7 +512,7 @@ StScrollBar {
 
 .window-border {
   border: 3px #0167D5;
-  border-radius: 2px;
+  border-radius: 3px;
   background-color: rgba(255, 255, 255, 0.05);
   /* Cover rounded corners and some bad adjustment gaps */
   box-shadow: 0 0 0 1px #0167D5 inset; }
@@ -602,19 +606,23 @@ StScrollBar {
 .calendar-main-box {
   margin: 0 .8em .5em .8em; }
 
+/* Calendar at panel at bottom */
 .calendar-events-main-box {
   height: 300px;
   margin-right: .5em;
   padding: .5em;
   min-width: 350px;
-  border: 1px solid #212222;
-  background-color: #414243; }
+  border: 0px solid #212222;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.05); }
 
 .calendar-events-no-events-button {
   margin: 6px 0 6px 0;
   padding: 6px; }
   .calendar-events-no-events-button:hover {
-    background-color: #0167D5; }
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 3px;
+  }
     .calendar-events-no-events-button:hover .calendar-events-no-events-icon,
     .calendar-events-no-events-button:hover .calendar-events-no-events-label {
       color: #ffffff; }
@@ -647,7 +655,7 @@ StScrollBar {
     text-align: left;
     margin-bottom: .2em; }
     .calendar-event-button .calendar-event-time-present:all-day {
-      color: #0167D5; }
+      color: #40BDFF; }
   .calendar-event-button .calendar-event-time-future {
     color: rgba(255, 255, 255, 0.87);
     font-weight: bold;
@@ -671,6 +679,7 @@ StScrollBar {
       color: #0167D5; }
   .calendar-event-button:hover {
     background-color: #0167D5;
+    border-radius: 2px;
     border: 1px solid #212222; }
     .calendar-event-button:hover .calendar-event-time-past,
     .calendar-event-button:hover .calendar-event-time-present,
@@ -771,6 +780,7 @@ StScrollBar {
   .calendar-day-base:hover {
     font-weight: bold;
     color: #ffffff;
+    border-radius: 3px;
     background-color: #0167D5; }
 
 .calendar-day-heading {
@@ -795,7 +805,8 @@ StScrollBar {
 
 .calendar-today {
   color: rgba(255, 255, 255, 0.87);
-  background-color: rgba(108, 171, 205, 0.4);
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 3px;
   border-width: 0; }
   .calendar-today:selected {
     font-weight: bold; }
@@ -1101,18 +1112,20 @@ StScrollBar {
   -arrow-rise: 10px;
   -boxpointer-gap: 5px; }
 
+/* Favorite applications menu at start menu */
 .menu-favorites-box {
-  padding: 10px;
+  padding: 0px;
   transition-duration: 300;
-  background-color: #414243;
-  border: 1px solid #212222; }
+  background-color: initial;
+  border: 0px solid rgba(255, 255, 255, 0.07); }
 
+/* Favorite applications button at start menu */
 .menu-favorites-button {
   padding: .9em 1em;
   border: 1px solid rgba(0, 0, 0, 0);
-  border-radius: 2px; }
+  border-radius: 3px; }
   .menu-favorites-button:hover {
-    background-color: #0167D5; }
+    background-color: rgba(255, 255, 255, 0.07); }
 
 .menu-places-box {
   padding: 10px;
@@ -1369,15 +1382,15 @@ StScrollBar {
 
 .grouped-window-list-thumbnail-menu {
   color: rgba(255, 255, 255, 0.87);
-  border: 1px solid #212222;
+  border: 1px solid rgba(255, 255, 255, 0.05);
   background-color: #303131;
-  border-radius: 3px;
+  border-radius: 5px;
   padding: 0px; }
   .grouped-window-list-thumbnail-menu > StBoxLayout {
     padding: 4px; }
   .grouped-window-list-thumbnail-menu .item-box {
     padding: 10px;
-    border-radius: 2px;
+    border-radius: 5px;
     spacing: 4px; }
     .grouped-window-list-thumbnail-menu .item-box:outlined {
       padding: 8px;
@@ -1614,9 +1627,11 @@ StScrollBar {
     padding-right: 0px;
     padding-top: 3px;
     padding-bottom: 3px; }
+  /* Button hover at pannel menu at bottom */
   .applet-box:hover, .applet-box:checked {
     color: #ffffff;
-    background-color: #0167D5; }
+    border-radius: 2px;
+    background-color: rgba(255, 255, 255, 0.1); }
   .applet-box:highlight {
     background-image: none;
     border-image: none;
