@@ -680,6 +680,7 @@ StScrollBar {
   .calendar-event-button:hover {
     background-color: #0167D5;
     border-radius: 2px;
+    transition-duration: 30;
     border: 1px solid #212222; }
     .calendar-event-button:hover .calendar-event-time-past,
     .calendar-event-button:hover .calendar-event-time-present,
@@ -1356,7 +1357,9 @@ StScrollBar {
     color: rgba(255, 255, 255, 0.87);
     border-color: #40bdff; }
   .grouped-window-list-item-box .progress {
-    background-color: rgba(108, 171, 205, 0.8); }
+    background-color: rgba(64, 189, 255, 0.3);
+    border-radius: 2px;
+  }
 
 .grouped-window-list-item-demands-attention {
   background-gradient-direction: vertical;
