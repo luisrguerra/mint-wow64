@@ -1356,6 +1356,7 @@ StScrollBar {
   .grouped-window-list-item-box:active, .grouped-window-list-item-box:checked {
     color: rgba(255, 255, 255, 0.87);
     border-color: #40bdff; }
+  /* Aplication process progress */
   .grouped-window-list-item-box .progress {
     background-color: rgba(64, 189, 255, 0.3);
     border-radius: 2px;
@@ -1371,11 +1372,11 @@ StScrollBar {
 
 .grouped-window-list-number-label {
   z-index: 99;
-  color: #d0d0d0; }
+  color: rgba(0, 0, 0, 0.9); }
 
 .grouped-window-list-badge {
   border-radius: 256px;
-  background-color: #4a4a4a; }
+  background-color: white; }
 
 .grouped-window-list-button-label {
   padding-left: 4px; }
