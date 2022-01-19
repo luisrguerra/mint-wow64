@@ -1,2 +1,2 @@
 # Mint Wow64 GTK Theme for Linux Mint
-![vmplayer-hrwzlkjekn1](https://user-images.githubusercontent.com/31783838/149602630-a2f3f902-dc74-419d-97b3-dc7fbfb84861.png)
+![vmplayer-j1jnlpwhdc](https://user-images.githubusercontent.com/31783838/150193831-e0526fa1-fcdd-44bf-b35d-604ce2a88ec3.png)
