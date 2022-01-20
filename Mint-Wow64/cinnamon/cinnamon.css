@@ -1303,9 +1303,8 @@ StScrollBar {
     background-color: rgba(108, 171, 205, 0.8); }
 
 .window-list-item-demands-attention {
-  background-gradient-direction: vertical;
-  background-gradient-start: #F04A50;
-  background-gradient-end: #F04A50; }
+    background-color: rgba(60, 166, 255, 0.3);
+}
 
 .window-list-preview {
   spacing: 6px;
@@ -1363,9 +1362,8 @@ StScrollBar {
   }
 
 .grouped-window-list-item-demands-attention {
-  background-gradient-direction: vertical;
-  background-gradient-start: #F04A50;
-  background-gradient-end: #F04A50; }
+    background-color: rgba(60, 166, 255, 0.3);
+}
 
 .grouped-window-list-thumbnail-label {
   padding-left: 4px; }
