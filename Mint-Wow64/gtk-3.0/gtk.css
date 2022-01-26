@@ -2879,6 +2879,7 @@ headerbar.default-decoration button.titlebutton,
 
 headerbar button.titlebutton,
 .titlebar button.titlebutton {
+  color: rgba(0, 0, 0, 0.87);
   min-width: 18px;
   min-height: 18px;
   padding: 10px 3px;
@@ -2897,7 +2898,7 @@ headerbar button.titlebutton,
   headerbar button.titlebutton:active, headerbar button.titlebutton:checked,
   .titlebar button.titlebutton:active,
   .titlebar button.titlebutton:checked {
-    color: rgba(0, 0, 0, 0.87);
+    color: #ffffff;
     outline-color: rgba(0, 0, 0, 0.17);
     border-color: rgba(0, 0, 0, 0.17);
     background-color: rgba(0, 0, 0, 0.15); }
