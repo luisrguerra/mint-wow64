@@ -2913,14 +2913,16 @@ headerbar button.titlebutton,
     border-width: 0; }
   headerbar button.titlebutton.close,
   .titlebar button.titlebutton.close {
-    color: #ffffff;
-    background-image: -gtk-gradient(radial, center center, 0, center center, 0.5, to(#0167D5), to(transparent)); }
+    color: rgba(0, 0, 0, 0.87);
+    background-image: -gtk-gradient(radial, center center, 0, center center, 0.5, to(rgba(232, 232, 232, 0)), to(transparent)); }
     headerbar button.titlebutton.close:hover,
     .titlebar button.titlebutton.close:hover {
-      background-image: -gtk-gradient(radial, center center, 0, center center, 0.5, to(#7fb6d3), to(transparent)); }
+      color: #ffffff;
+      background-image: -gtk-gradient(radial, center center, 0, center center, 0.5, to(#e81123), to(transparent)); }
     headerbar button.titlebutton.close:active,
     .titlebar button.titlebutton.close:active {
-      background-image: -gtk-gradient(radial, center center, 0, center center, 0.5, to(#59a0c7), to(transparent)); }
+      color: #ffffff;
+      background-image: -gtk-gradient(radial, center center, 0, center center, 0.5, to(#F14654), to(transparent)); }
     headerbar button.titlebutton.close:backdrop,
     .titlebar button.titlebutton.close:backdrop {
       background-image: -gtk-gradient(radial, center center, 0, center center, 0.5, to(darkgray), to(transparent)); }
