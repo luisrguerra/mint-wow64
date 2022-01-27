@@ -1356,6 +1356,13 @@ StScrollBar {
   .grouped-window-list-item-box:hover, .grouped-window-list-item-box:focus {
     color: rgba(255, 255, 255, 0.87);
     background-color: rgba(255, 255, 255, 0.1); }
+
+  /* glassborder effect from fluent design */
+  .grouped-window-list-item-box:hover, .grouped-window-list-item-box:focus{
+    box-shadow: 0px 0px 0px 1px #3B3B3B;
+    background-color: #363636;
+  }
+
   /* Aplication task icon at task menu */
   .grouped-window-list-item-box:active, .grouped-window-list-item-box:checked {
     color: rgba(255, 255, 255, 0.87);
@@ -1639,6 +1646,12 @@ StScrollBar {
     color: #ffffff;
     border-radius: 2px;
     background-color: rgba(255, 255, 255, 0.1); }
+
+  /* glassborder effect from fluent design */
+  .applet-box:hover, .applet-box:checked {
+    box-shadow: 0px 0px 0px 1px #3B3B3B;
+    background-color: #363636;
+  }
   .applet-box:highlight {
     background-image: none;
     border-image: none;
