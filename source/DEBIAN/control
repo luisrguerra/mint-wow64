@@ -1,0 +1,9 @@
+Source: mint-wow64
+Priority: optional
+Maintainer: Luis Guerra
+Version: 0.8
+Essential: no
+Package: mint-wow64
+Architecture: all
+Homepage: https://github.com/luisrguerra/mint-wow64
+Description: Mint Wow64 GTK theme for Linux Mint.
